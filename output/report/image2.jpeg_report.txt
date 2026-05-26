@@ -1,0 +1,13 @@
+Image Analysis Report for images/image2.jpeg
+==================================================
+Metadata:
+{}
+
+Feature Extraction:
+Histogram Shape: (16, 16, 16)
+Edge Map Shape: (190, 266)
+ORB Descriptors Shape: (369, 32)
+
+ELA Image Path: outputs/ela\image2.jpeg_ela.jpg
+
+Anomaly Detected: Yes

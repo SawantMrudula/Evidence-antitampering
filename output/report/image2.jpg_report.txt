@@ -1,0 +1,19 @@
+Image Analysis Report for images/image2.jpg
+==================================================
+Metadata:
+{
+    "Image ImageWidth": "736",
+    "Image ImageLength": "1308",
+    "Image ExifOffset": "62",
+    "Image Orientation": "Horizontal (normal)",
+    "EXIF LightSource": "Unknown"
+}
+
+Feature Extraction:
+Histogram Shape: (16, 16, 16)
+Edge Map Shape: (1308, 736)
+ORB Descriptors Shape: (500, 32)
+
+ELA Image Path: outputs/ela\image2.jpg_ela.jpg
+
+Anomaly Detected: Yes
