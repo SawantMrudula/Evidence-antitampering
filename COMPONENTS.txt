@@ -1,0 +1,50 @@
+# COMPONENTS.TXT
+# List of components, libraries, and tools required for the image analysis and tampering detection script
+
+1. Python Version:
+   - Python 3.8 or above
+
+2. Python Libraries:
+   - exifread: For extracting metadata from images
+   - cv2 (OpenCV): For image processing (histograms, edge maps, etc.)
+   - numpy: For numerical operations
+   - Pillow (PIL): For image manipulation (ELA, difference calculation)
+   - imagehash: For generating perceptual hashes
+   - hashlib: For generating SHA-256 hashes
+   - json: For working with JSON files
+
+3. Output Directories:
+   - outputs/metadata: For storing metadata JSON files
+   - outputs/features: For storing feature files in `.npz` format
+   - outputs/ela: For saving ELA difference images
+   - outputs/report: For saving detailed analysis reports
+
+4. Required Files:
+   - Original Image: `images/cup_image.jpg`
+   - Modified Image (optional): `images/tampered_image.jpg`
+
+5. Dependencies Installation Command:
+
+
+6. Outputs Generated:
+- Metadata JSON files: `outputs/metadata/`
+- Feature files (`.npz`): `outputs/features/`
+- ELA images: `outputs/ela/`
+- Comparison reports: `outputs/report/`
+- Pixel difference image (if tampered): `outputs/difference_image.png`
+
+7. Execution:
+- Run the Python script using the command:
+  ```
+  python main.py
+  ```
+- Ensure that the paths for the original and modified images are correctly specified in the script.
+
+8. Optional Tools:
+- VS Code: For code editing and debugging
+- Bash Terminal (Linux/Mac) or Command Prompt/PowerShell (Windows): For script execution
+
+9. Notes:
+- Ensure Python and pip are installed and properly configured on your system.
+- Use a virtual environment to avoid dependency conflicts.
+- Check the `outputs/` directory after execution for all generated results.
